@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    width: 80%;
+    margin-left: 20dvh;
+    margin-right: 20vh;
+}
+
+h2 {
+    color: #ffcd2a;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #ffcd2a;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cabecalho {
+    
+    text-align: center;
+    background-color: aquamarine;   
+}
+
+.botoes {
+    
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 3px;
+    background-color: aqua;
+}
+
+.imagem__texto {
+    background-color: aqua;
+    display: flex;   
+}
+
+section {
+    text-decoration: none;
+}
+
+.texto__engenharia {
+    padding: 8px;
+}
+
+h3 {
+    background-color: aquamarine;
+   text-align: center;
+   padding: 20px;
+    color: #ffcd2a;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contato {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;  
+}
+
+.botao__enviar {
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 3px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+.rodape {
+    background-color: darkcyan;
+    font-size: 17px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 1024px ) {
+    .imagem__texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+
